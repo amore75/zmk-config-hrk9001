@@ -46,7 +46,7 @@
         a-gpios = <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // A pin for left encoder
         b-gpios = <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // You can ignore if not used
         steps = <80>;
-        status = "okay";
+        status = "disabled";
     };
 
     right_encoder: encoder_right {
@@ -54,7 +54,7 @@
         a-gpios = <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // Optional A pin
         b-gpios = <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // B pin for right encoder
         steps = <80>;
-        status = "okay";
+        status = "disabled";
     };
 
     sensors: sensors {
