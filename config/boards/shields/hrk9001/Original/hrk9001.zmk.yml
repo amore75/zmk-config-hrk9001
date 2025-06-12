@@ -1,0 +1,11 @@
+file_format: "1"
+id: hrk9001
+name: BFO-9000
+type: shield
+url: https://keeb.io/products/bfo-9000-keyboard-customizable-full-size-split-ortholinear
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - hrk9001_left
+  - hrk9001_right
