@@ -6,7 +6,7 @@
 
 #include "hrk9001.dtsi"
 
-&default_transform {
+&split_transform {
     col-offset = <9>;
 };
 
